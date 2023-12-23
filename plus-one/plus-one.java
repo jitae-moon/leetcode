@@ -10,10 +10,9 @@ class Solution {
         
         String numStr = sb.toString();
 
-        BigInteger num1 = new BigInteger(numStr);
-        BigInteger num2 = new BigInteger("1");
+        BigInteger num = new BigInteger(numStr);
         
-        String res = num1.add(num2).toString();
+        String res = num.add(BigInteger.ONE).toString();
 
         int len = res.length();
         
